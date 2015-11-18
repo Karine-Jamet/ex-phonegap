@@ -1,6 +1,9 @@
 h2{
   color:#27a1c5;
   background-color: #2d3033;
+  border-radius: 10px;
+  padding-left: 10px;
+  clear:both;
 }
 
 header{
@@ -10,12 +13,21 @@ header{
   font-family:courier;
 }
 
+section{
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:justify;
+}
+
 .robot{
   text-align: center;
 }
 
 .robot img{
   height: 100px;
+  float: left;
+  padding:20px;
 
 }
 
@@ -27,7 +39,7 @@ a{
 .code{
   font-style: italic;
   background-color: black;
-  width: 200px;
+  width: 180px;
   color:White;
 
 }
