@@ -92,5 +92,5 @@ article:active, footer:active {
 
 article:focus, footer:focus {
   height: auto;
-  overflow: visible; 
+  overflow: visible;
 }
