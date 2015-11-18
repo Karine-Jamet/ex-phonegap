@@ -1,21 +1,18 @@
-body {
-  font-family: arial, sans-serif;
+header{
+  background-color: #27a1c5;
+  border-radius: 10px;
+  text-align: center;
+  font-family:courier;
 }
 
 h2{
+  font-family: courier, sans-serif;
   color:#27a1c5;
   background-color: #2d3033;
   border-radius: 10px;
   padding-left: 10px;
   margin-top: 0;
   clear:both;
-}
-
-header{
-  background-color: #27a1c5;
-  border-radius: 10px;
-  text-align: center;
-  font-family:courier;
 }
 
 section, footer {
