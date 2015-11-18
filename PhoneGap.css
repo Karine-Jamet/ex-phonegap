@@ -23,12 +23,13 @@ section, footer {
 
 .robot{
   text-align: center;
+  padding:20px;
 }
 
 .robot img{
   height: 100px;
   /*float: left;*/
-  padding:20px;
+
 
 }
 
