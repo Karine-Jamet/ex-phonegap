@@ -15,8 +15,7 @@ header{
 
 section{
   width:75%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align:justify;
 }
 
@@ -26,13 +25,30 @@ section{
 
 .robot img{
   height: 100px;
-  float: left;
+  /*float: left;*/
   padding:20px;
+
+}
+
+.histoire, .robot {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.histoire {
+  width: 75%;
 
 }
 
 a{
   text-decoration: none;
+  color:#27a1c5;
+  font-style: italic;
+
+}
+
+a:hover{
+  color:#2d3033;
 
 }
 
@@ -42,4 +58,14 @@ a{
   width: 180px;
   color:White;
 
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+iframe{
+    display:block;
+    margin: 0 auto;
 }
