@@ -2,11 +2,11 @@ header{
   background-color: #27a1c5;
   border-radius: 10px;
   text-align: center;
-  font-family:courier;
+  font-family: 'Advent Pro', sans-serif;
 }
 
 h2{
-  font-family: courier, sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   color:#27a1c5;
   background-color: #2d3033;
   border-radius: 10px;
