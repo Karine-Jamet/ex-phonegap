@@ -1,0 +1,28 @@
+.jumbotron {
+	background-color: #27a1c5;
+	text-align: center;
+}
+
+h2 {
+	background-color: #2d3033;
+	color:  #27a1c5;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+iframe {
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
+.robot img {
+	
+}
+
+.robot {
+	float: left;
+	width: 50%;
+	margin : 10px;
+}
