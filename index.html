@@ -16,6 +16,10 @@ color="#27a1c5"
   <head >
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!--<link rel="stylesheet" type="text/css" href="PhoneGap.css">-->
     <link rel="stylesheet" type="text/css" href="phonegap-bootstrap.css">
 
@@ -38,7 +42,8 @@ color="#27a1c5"
         <section class="row text-justify">
 
             <article class='col-md-6 col-lg-4'>
-            <h2> Introduction </h2>
+            <h2 type="button" data-toggle="collapse" data-target="#intro"> Introduction </h2>
+            <div id="intro" class="collapse">
             <p>Adobe PhoneGap ou seulement PhoneGap est un framework destiné à faciliter la création d'applications mobiles pour différentes plateformes - Android, iOS, Windows Phone. Développé par Adobe Systems, il est basé sur Apache Cordova et distribué sous licence open-source1.
     Les applications qui en résultent sont hybrides, ce qui signifie qu'elles ne sont ni vraiment natives, ni purement basées sur les langages HTML, CSS et JavaScript.</p>
 
@@ -47,23 +52,27 @@ color="#27a1c5"
     Adobe PhoneGap Build intègre également des outils de développement comme un système de travail collaboratif, de débogage ou de mises à jours automatiques de l'application.</p>
 
             <img class="img-responsive" src="http://phonegap.com/css/images/diagram_build_large.png" />
+          </div>
           </article>
 
 
             <article class='col-md-6 col-lg-4'>
-              <h2>Histoire</h2>
+              <h2 type="button" data-toggle="collapse" data-target="#hist">Histoire</h2>
+              <div id="hist" class="collapse">
             <div class="robot">
               <img class="img-responsive" src="http://phonegap.com/css/images/graphic_build_bot.png" />
             </div>
             <p class="histoire">PhoneGap est à l'origine un projet développé par Nitobi Software, puis par Adobe Systems à la suite du rachat de Nitobi par Adobe.
             En 2011, Adobe donne le projet à la Fondation Apache2, qui le renomme Apache Callback puis Apache Cordova3.
             À partir de là, PhoneGap change de but. Étant dorénavant basé sur Apache Cordova, il n'est plus question de développer la base du système, mais seulement des fonctionnalités autour (Comme Adobe PhoneGap Build)4. </p>
+          </div>
           </article>
 
       <!--  </section>
         <section class="row text-justify"> -->
             <article class='col-md-6 col-lg-4'>
-              <h2>Le fonctionnement de PhoneGap</h2>
+            <h2 type="button" data-toggle="collapse" data-target="#fonc">Le fonctionnement de PhoneGap</h2>
+            <div id="fonc" class="collapse">
             <p>PhoneGap fournit une API JavaScript multi-plateforme pour accéder aux fonctions des appareils (ex. appareil photo, GPS, carnet des contacts…).
             Par exemple, pour faire vibrer l’appareil pendant 3 secondes :</p>
 
@@ -76,12 +85,14 @@ color="#27a1c5"
 
             Une fois le développement fini, PhoneGap vous permet de compiler le code HTML, CSS, JavaScript pour chaque plateforme. Vous pourrez ensuite distribuer les applications dans les différents app stores (Apple App Store, Google Play, Windows Phone Store…).</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/wOH4aGows40" frameborder="0" allowfullscreen></iframe>
+          </div>
           </article>
 
 
 
           <article class='col-md-6 col-lg-12' >
-              <h2>Sources</h2>
+              <h2 type="button" data-toggle="collapse" data-target="#sources" >Sources</h2>
+              <div id="sources" class="collapse">
               <ul class ="list-unstyled">
                 <li>
                   <a href="http://phonegap.com/">PhoneGap</a>
@@ -96,6 +107,7 @@ color="#27a1c5"
                   <a href="http://www.alsacreations.com/tuto/lire/1646-introduction-phonegap.html">Tuto</a>
                 </li>
               </ul>
+            </div>
           </article>
       </section>
 
